@@ -10,4 +10,5 @@ class EasyInsightApplicationTests {
 	void contextLoads() {
 	}
 
+
 }
