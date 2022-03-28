@@ -11,7 +11,7 @@ public class SetupDataController {
 
     @GetMapping("/getData")
     @ResponseStatus(HttpStatus.OK)
-    public ResponseEntity<?> enabledTenants() throws Exception {
+    public ResponseEntity<?> getData() throws Exception {
 
         return new ResponseEntity<>("Status", HttpStatus.OK);
     }
