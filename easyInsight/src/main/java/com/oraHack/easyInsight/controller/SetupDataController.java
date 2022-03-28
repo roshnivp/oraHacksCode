@@ -21,6 +21,6 @@ public class SetupDataController {
     @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<?> getData(@RequestParam String key) throws Exception {
         Set<String> results = setupDataService.getSetupData(key);
-        return new ResponseEntity<>("Status", HttpStatus.OK);
+        return new ResponseEntity<>(results, HttpStatus.OK);
     }
 }
